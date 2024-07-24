@@ -1,2 +1,1 @@
-# dice
-A silly project that shouldn't have seen the light of day
+To run it put both files in the same folder then run dice.py.
