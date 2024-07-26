@@ -1601,7 +1601,7 @@ def prepDice():
                             vals = [j for j in range(1, type+1)]
                         k = 0
                         for d in toAdd:
-                            for j in range(len(d['polyhedron'])):
+                            for j in range(len(vals)):
                                 d['polyhedron'][j]['num'] = vals[j]
                                 if k==1:
                                     d['polyhedron'][j]['num'] *= 10
